@@ -15,11 +15,10 @@ template and script. It draws heavily on existing resources ([2][2], [3][3]).
 
 ## Usage
 
-1. Clone this repository. (optional: maybe create and checkout your own branch?)
+1. Clone this repository
 2. Modify the `user-data` file to specify an auth token.  The file should be in the format:
 
-    #cloud-config
-    <token>
+    token <auth token>
 
 3. Verify that you have the dependency `genisoimage`. In RHEL/CentOS/Fedora, 
    `sudo yum install genisoimage`; in Ubuntu/Debian, `sudo apt-get install genisoimage`.
