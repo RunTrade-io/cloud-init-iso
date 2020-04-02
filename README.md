@@ -31,6 +31,17 @@ Other options that can be added to the user-data include:
     proxy <proxy>:<port>
     proxy_auth <username>:<password>
 
+Other options that can be added to the user-data include:
+
+    ip4 <ipv4 address>
+    netmask4 <subnet mask>
+    gateway4 <default gateway>
+    vlan <vlan>
+    dns4_1 <dns server 1>
+    dns4_2 <dns server 2>
+    proxy <proxy>:<port>
+    proxy_auth <username>:<password>
+
 3. Verify that you have the dependency `genisoimage`. In RHEL/CentOS/Fedora, 
    `sudo yum install genisoimage`; in Ubuntu/Debian, `sudo apt-get install genisoimage`.
 4. Build the ISO using `./build.sh`. You can either specify an output filename as the 
