@@ -18,7 +18,7 @@ template and script. It draws heavily on existing resources ([2][2], [3][3]).
 1. Clone this repository
 2. Modify the `user-data` file to specify an auth token.  The file should be in the format:
 
-    token <auth token>
+    `token <auth token>`
 
 Other options that can be added to the user-data include:
 
